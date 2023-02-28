@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  img{
+    content: url("img/1.jpg");
+  }
+
+  body{
+    background-color: #adadad;
+  }
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color:#1c1c1c ;
+    color: #9b9b9b;
+    padding: 15px;
+}
+.menu a {
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .menu a:active, .menu a:visited, .menu a:link {
+        color: #18151A;
+      }
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #626262;
+    color: #010113;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #6f6f6f;
+}
+.aside {
+    background-color: #707070;
+    padding: 15px;
+    color: #0a0a2b;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #353535;
+    color: #9a9a9a;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    img{
+    content: url("img/2.png");
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Mis Practicas</h1>
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+  <ul>
+    <li><a href="https:assbel.github.io/Practica1">Practica1</a></li>
+    <li><a href="https:assbel.github.io/Practica2">Practica2</a></li>
+    <li><a href="https:assbel.github.io/Practica3">Practica3</a></li>
+    <li><a href="https:assbel.github.io/Practica4">Practica4</a></li>
+    <li><a href="https:assbel.github.io/Practica5">Practica5</a></li>
+    <li><a href="https:assbel.github.io/Practica6">Practica6</a></li>
+    <li><a href="https:assbel.github.io/Practica7">Practica7</a></li>
+    <li><a href="https:assbel.github.io/Practica">Practica8</a></li>
+  </ul>
+</div>
+
+<div class="col-6">
+  <h1>Mi cv</h1>
+  <h4>Assbel Alanis Lopez</h4>
+</hgroup>
+<time datetime="2011-12-10" pubdate>
+    publicado 10-12-2023
+</time>
+</header>
+<h1>Mi CV</h1>
+<div id="header">
+<table>
+<tr>
+<td>
+<video width="auto" height="240" controls>
+  <source src="img/Vid.mp4" type="video/mp4" />
+</video>
+</td>
+
+<td>
+<p id="nombre">Assbel</p>
+<h4 id="apellidos">Alanis López</h4>
+
+<p>
+  Ingeniero en Sistemas Computacionales
+  <br />
+  Instituto Tecnologico de Orizaba
+</p>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="video">
+<h2>Dirección</h2>
+
+<iframe
+src="https://www.google.com/maps/embed?pb=!4v1676919352267!6m8!1m7!1sCm1XqtEa8pC-YaCRt8zuyg!2m2!1d26.40851507720001!2d-99.03136301982124!3f284.71905511091256!4f0!5f0.7820865974627469"
+width="600"
+height="450"
+style="border: 0"
+allowfullscreen=""
+loading="lazy"
+referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+</div>
+
+<div id="datos">
+<h2>Acerca de mí</h2>
+
+<div id="tabla1" style="background-color: hsla(0, 0%, 35%, 0.5)">
+<table>
+<tr>
+<th style="width: 450px">Datos personales</th>
+<th style="width: 450px">Datos académicos</th>
+</tr>
+
+<tr>
+<td>
+  <ul>
+    <li>Fecha de nacimiento: 22/07/1993</li>
+    <li>Lugar de nacimiento: Ciudad Miguel Alemán, Tamaulipas</li>
+  </ul>
+</td>
+
+<td>
+  <ul>
+    <li>Secundaria: Secundaria General Felipe Ángeles</li>
+    <li>Preparatoria: CONALEP Plantel 259</li>
+    <li>Universidad: Instituto Tecnologico de Orizaba</li>
+  </ul>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="tabla2" style="background-color: hsla(48, 100%, 50%, 0)">
+<table>
+<tr>
+<th style="width: 450px">Experiencia laboral</th>
+<th style="width: 450px">Certificaciones</th>
+</tr>
+
+<tr>
+<td>
+  <ul>
+    <li>2003-2013/2015/2020 Agricultor</li>
+    <li>2013-2015 Supermercado</li>
+  </ul>
+</td>
+
+<td>
+  <ul>
+    <li>MPA</li>
+    <li>OPTO</li>
+    <li>ACE</li>
+  </ul>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="tabla3" style="background-color: hsla(0, 0%, 32%, 0.5)">
+<table>
+<tr>
+<th>Lenguas adicionales</th>
+</tr>
+
+<tr>
+<td>
+  <ul>
+    <li>Inglés: 85%</li>
+  </ul>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+<div class="col-3 right">
+  <div class="aside">
+  <img width="100%">
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <p>Cambiar el tama&ntilde;o de la ventana del navegador para ver c&oacute;mo responde el contenido al redimensionamiento.</p>
+</div>
+
+</body>
+</html>
